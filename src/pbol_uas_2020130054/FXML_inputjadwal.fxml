@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="427.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pbol_uas_2020130054.FXML_inputjadwalController">
+   <children>
+      <Button fx:id="btnpilihmk" layoutX="342.0" layoutY="127.0" mnemonicParsing="false" onAction="#pilihmkklik" prefHeight="31.0" prefWidth="98.0" text="Pilih MK" />
+      <Button fx:id="btnpilihsiswa" layoutX="342.0" layoutY="77.0" mnemonicParsing="false" onAction="#pilihsiswaklik" prefHeight="31.0" prefWidth="98.0" text="Pilih Siswa" />
+      <Button fx:id="btnkeluar" layoutX="370.0" layoutY="350.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="31.0" prefWidth="70.0" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="214.0" layoutY="350.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="31.0" prefWidth="70.0" text="Batal" />
+      <Button fx:id="btnsimpan" layoutX="60.0" layoutY="350.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtkodemk" layoutX="146.0" layoutY="127.0" />
+      <TextField fx:id="txtnidn" layoutX="145.0" layoutY="77.0" />
+      <Label layoutX="62.0" layoutY="282.0" text="Hari" />
+      <Label layoutX="63.0" layoutY="232.0" text="Jam" />
+      <Label layoutX="61.0" layoutY="181.0" text="KD Ruang" />
+      <Label layoutX="62.0" layoutY="132.0" text="Kode MK" />
+      <Label layoutX="63.0" layoutY="82.0" text="NIDN" />
+      <TextField fx:id="txtruangan" layoutX="146.0" layoutY="176.0" />
+      <Button fx:id="btnpilihruang" layoutX="342.0" layoutY="176.0" mnemonicParsing="false" onAction="#pilihruangklik" prefHeight="31.0" prefWidth="98.0" text="Pilih Ruang" />
+      <Pane prefHeight="50.0" prefWidth="514.0" style="-fx-background-color: #B22222;">
+         <children>
+            <Label layoutX="124.0" layoutY="3.0" text="Tambah Jadwal" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="403.0" prefHeight="25.0" prefWidth="514.0" style="-fx-background-color: #B22222;" />
+      <TextField fx:id="txtjam" layoutX="146.0" layoutY="227.0" />
+      <TextField fx:id="txthari" layoutX="145.0" layoutY="277.0" />
+   </children>
+</AnchorPane>
